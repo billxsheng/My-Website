@@ -17,7 +17,8 @@ body{
 
 
 .row {
-    max-width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
     
 }
 section {
@@ -55,7 +56,23 @@ header {
     border: 0px solid transparent;
 }
 
-.main-nav1 {
+.nav {
+    text-align: center;
+    list-style: none;
+    position: relative;
+    top: 20px;
+    font-size: 80%;
+    text-decoration: none;
+    padding: 0px 0px;
+    text-decoration: none;
+}
+
+.navLogo {
+    text-align: center;
+    list-style: none;
+}
+
+/*.main-nav1 {
    float: left;
     margin-left: 350px;
     font-family: 'Proxima Nova Alt';
@@ -106,7 +123,7 @@ header {
 .main-nav2 li a:hover,
 .main-nav2 li a:active {
     color: #445aa2;
-}
+}*/
 
 .sticky {
     position: fixed;
