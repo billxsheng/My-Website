@@ -21,6 +21,7 @@ body{
     margin: 0 auto;
 }
 
+
 .nav-row {
     max-width: 500px;
     margin: 0 auto;
@@ -43,7 +44,7 @@ div {
 
 h2{
     color: #000;
-    font-size: 70px;
+    font-size: 60px;
     text-align: center;
 }
 /*HEADER/MAIN*/
@@ -59,18 +60,21 @@ header {
     width: 100%;
     height: 80px;
     margin: 0;
+    background-color: #FED766;
 }
 
 .nav {
-    list-style: none;
     text-align: center;
     font-size: 15px;
     top: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .nav a {
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 
 header h1 {
@@ -143,7 +147,7 @@ body {
     text-align: center;
     font-size: 18px;
     line-height: 25px;
-    margin: 0px 30% 20px 30%;
+    margin: 10px 30% 40px 30%;
     
 }
 
@@ -203,16 +207,6 @@ h5 {
     height: 100vh;
 }
 
-
-.projects p {
-    font-size: 18px;
-    color: #000;
-    margin-top: 10px;
-    text-align: center;
-    line-height: 25px;
-}
-
-
 /*BACKGROUND3*/
 .background3 {
     background-image: url(images/purple_sunset-wallpaper-1680x1050.jpg);
@@ -228,12 +222,28 @@ h5 {
     height:100vh;
 }
 
+.gallery h2 {
+    margin-top: 10px;
+}
+
 .gallery p {
     text-align: center;
     color: #000;
     font-size: 18px;
-    margin-top: 10px;
+    margin-top: 50px;
+}
 
+.photo-container img {
+    width: 285px;
+    float: left;
+    margin-top: 80px;
+    opacity: 0.5;
+    transition: opacity 0.2s;
+    padding: 0 10px;
+}
+
+.gallery img:hover {
+    opacity: 1;
 }
 /*BACKGROUND4*/
    .background4 {
@@ -244,38 +254,77 @@ h5 {
 }
 
 /*CONTACT*/
-.contact-me {
+.contact-me1 {
+    height: 100vh;
+    background-color: #f2f1f1;
+}
+.contact-me1 h2 {
+    font-size: 60px;
+}
+.contact-container {
+    float: left;
+    color: #000;
+    height: 250px;
+    text-align: center;
+    width: 380px;
+    padding: 0 30px;
+}
+
+.contact-container i {
+    font-size: 60px;
+    position: relative;
+    top: 40px;
+}
+
+.contact-container h6 {
+    font-size: 25px;
+    position: relative;
+    top: 40px;
+}
+
+.contact-container h7 {
+    position: relative;
+    top: 60px;
+    font-size: 15px;
+}
+
+.contact-container a {
+    text-decoration: none;
+    position: relative;
+    top: 100px;
+    display: block;
+    color: #000;
+}
+.social-media {
+    padding: 0 30px;
+    height: 200px;
+    text-align: center;
+}
+.social-media a {
+    display: ;
+}
+.contact-social-icons {
+    color: black;
+    font-size: 50px;
+    background-color: #e3e3e3;
+    padding: 20px 20px;
+    border-radius: 50%;
+    margin: 15px 15px;
+    opacity: 0.5;
+    transition: opacity 0.2s;
+}
+.contact-social-icons:hover {
+    opacity: 1;
+}
+/*.contact-me2 {
     background-color: #fff;
     height: 100vh;
 }
 
-.contact-me h1 {
+.contact-me2 h1 {
     color: #000000;
     font-size: 300%;
     text-align: center;
-    position: relative;
-    margin-top: -30px;
-}
-.seperator {
-    bottom: 25px;
-}
-.contact-line {
-    background-color: #000;
-    width: 1px;
-    height: 110px;
-    position: absolute;
-    left: 50%;
-    padding-top: 70px;
-}
-
-.contact-line:first-child {
-    position: absolute;
-    top: 280px;
-    margin-top: 40px;
-}
-.contact-line:last-child {
-    position: absolute;
-    top: 40px;
 }
 
 
@@ -292,9 +341,9 @@ h5 {
     height: 505px;
     width: 600px;
     position: absolute;
-    top: 3735px;
-    left: 54%;
     box-shadow: 15px 15px 10px #d3d3d3;
+    border-radius: 10px;
+    
 }
 h9 {
     color: #000;
@@ -371,7 +420,7 @@ input[type=submit]:active {
 
 .submit {
     margin-left: 25px;
-}
+}*/
 
 /*FOOTER*/
 .footer {
@@ -379,47 +428,6 @@ input[type=submit]:active {
     height: 300px;
 }
 
-/*.sec-nav1 {
-    float: left;
-    position: absolute;
-    left: 400px;
-    font-weight: 400;
-    font-family: 'Proxima Nova Alt';
-}
-
-.sec-nav2 {
-    float: right;
-    position: absolute;
-    right: 400px;
-    font-weight: 400;
-    font-family: 'Proxima Nova Alt';
-    
-}
-
-.sec-nav1 li,
-.sec-nav2 li {
-    display: inline-block;
-    margin: 0 30px;
-    font-size: 70%;
-    
-    
-}
-.sec-nav1 li a,
-.sec-nav2 li a {
-    text-decoration: none;
-    color: #ffffff;
-    transition: color 0.2s;
-}
-
-.sec-nav1 li a:hover,
-.sec-nav1 li a:active {
-    color: #445aa2;
-}
-
-.sec-nav2 li a:hover,
-.sec-nav2 li a:active {
-    color: #445aa2;
-}*/
 
 .footer-nav a {
     text-decoration: none;
@@ -436,7 +444,7 @@ input[type=submit]:active {
     color: #fff;
     margin-top: 100px;
     text-align: center;
-    font-size: 15px;
+    font-size: 12px;
     
 }
 
