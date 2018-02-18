@@ -255,7 +255,7 @@ h5 {
 
 /*CONTACT*/
 .contact-me1 {
-    height: 100vh;
+    height: 80vh;
     background-color: #f2f1f1;
 }
 .contact-me1 h2 {
@@ -306,7 +306,7 @@ h5 {
 .contact-social-icons {
     color: black;
     font-size: 50px;
-    background-color: #e3e3e3;
+    background-color: rgba(227, 227, 227, 0.85);
     padding: 20px 20px;
     border-radius: 50%;
     margin: 15px 15px;
