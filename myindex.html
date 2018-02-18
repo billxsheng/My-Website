@@ -3,48 +3,73 @@
     <head>
         <link rel="stylesheet" type="text/css" href="resources/css/mystyle.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/Grid.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link rel="stylesheet" type="text/css" href="vendors/fonts/ionicons.min.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700" rel="stylesheet">
     </head> 
     <body>
-   
         <header>
-                <nav class= "sticky";>
-                    <div class="row">
-<!--                        <div class="nav-background">
-                            <ul class="main-nav1">
+            <nav class= "sticky">
+                <div class="nav-background">
+                    <div class="nav-row">
+                        <div class="col span-1-of-5 nav">
                                 <li><a href="#about">ABOUT</a></li>
+                            </div>
+                            <div class="col span-1-of-5 nav">
                                 <li><a href="#projects">PROJECTS</a></li>
-                            </ul>
-        
-                            <ul class="main-nav2">
+                            </div>
+                            <div class="col span-1-of-5 nav">
+                                <li><a href=""></a></li>
+                            </div>
+                            <div class="col span-1-of-5 nav">
                                 <li><a href="#gallery">GALLERY</a></li>
+                            </div>
+                            <div class="col span-1-of-5 nav">
                                 <li><a href="#contact">CONTACT</a></li>
-                            </ul>
-                        </div>-->
-                    </div>
-        
-                </nav>
-                <div class="main-links">
-                    <h1>BILL SHENG</h1>
-                    <hr class="name-line">
-                    <div class="button-container1">
-                    <a class="linkedin1" href="http://www.linkedin.com/in/billxsheng/" target="_blank">LinkedIn</a>
-                    <a class="resume1" href="resources/documents/Bill%20Sheng%20Resume%205(Software).pdf" target="_blank">Resume</a>
+                            </div>
                     </div>
                 </div>
-                <a href="#about"><i class="ion-chevron-down arrow-icon"></i></a>
+            </nav>
                 
-
+            <div class="row">
+                <h1>Hey, I'm Bill!</h1>
+            </div>
+            <div class="button-row">
+                <div class="col span-1-of-2 about-links">
+                    <a class="linkedin1" href="http://www.linkedin.com/in/billxsheng/" target="_blank">LinkedIn</a>
+                </div>
+                <div class="col span-1-of-2 about-links">
+                    <a class="resume1" href="resources/documents/Bill%20Sheng%20Resume%205(Software).pdf" target="_blank">Resume</a>
+                </div>
+            </div>
+            <div class="row about-arrow">
+                <a href="#about"><i class="ion-chevron-down"></i></a>
+            </div>
         </header>
-        <section class= "about-me js--about-me" id="about">
-                <h2>ABOUT ME</h2>
+        
+        
 
+        
+        <section class= "about-me js--about-me" id="about">
+             <div class="row"> 
+                 <h2>ABOUT ME</h2>
+             </div>      
+             <div>
                 <p>
-                Hey, I'm Bill! Thanks for visiting my website! I am currently a first-year Management Engineering student here at the University of Waterloo [...]
+                Welcome to my website! I'm Bill, a Management Engineering student at the University of Waterloo. 
                 </p>
-            <hr class="about-line">
+            </div>
+            <div class="row">
+                <div class="col span-1-of-6">
+                
+                
+                </div>
+            
+            
+            </div>
+           <!-- <hr class="about-line">
             <div class="about-right">
                 <div class="information">
                     <div class="hometown">
@@ -85,7 +110,7 @@
                 </div>
             </div>
 
-          
+          -->
         </section>
         
         
@@ -93,16 +118,24 @@
         </section>
             
         <section class="projects" id="projects">
-            <h1>PROJECTS</h1>
-            <p>Between school work, intramural sports, and the occasional college football game, I enjoy working on a variety of projects. <br>Projects like this one :)</p>
+            <div class="row">
+                 <h2>PROJECTS</h2>
+            </div>
+            <div class="row">
+            <p>Between school work, intramural sports, and the occasional college football game, I enjoy working on a variety of projects.
+            </div>
         </section>
         
         <section class="background3">
         </section>
         
         <section class="gallery" id="gallery">
-            <h1>GALLERY</h1>
-            <p>Coming soon...</p>
+            <div class="row">
+                <h2>GALLERY</h2>
+            </div>
+            <div class="row">
+                <p>Coming soon...</p>
+            </div>
         </section>
         
         <section class="background4">
@@ -155,18 +188,38 @@
        </section>
         
         <section class="footer">
-                <ul class="sec-nav1">
+            <div class = "nav-row">
+                <div class="col span-1-of-5 footer-nav">
+                    <li><a href="#about">ABOUT</a></li>
+                </div>
+                <div class="col span-1-of-5 footer-nav">
+                    <li><a href="#projects">PROJECTS</a></li>
+                </div>
+                <div class="col span-1-of-5 footer-nav">
+                    <li><a href=""></a></li>
+                </div>
+                <div class="col span-1-of-5 footer-nav">
+                    <li><a href="#gallery">GALLERY</a></li>
+                </div>
+                <div class="col span-1-of-5 footer-nav">
+                    <li><a href="#contact">CONTACT</a></li>
+                </div>
+                
+                
+            
+            
+            </div>
+              <!--  <ul class="sec-nav1">
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#projects">PROJECTS</a></li>
                 </ul>
                 <ul class="sec-nav2">
                     <li><a href="#gallery">GALLERY</a></li>
                     <li><a href="#contact">CONTACT</a></li>
-            </ul>
-            <p>
-                © Bill Sheng 2018. Made from scratch.
-            </p>
-        
+            </ul>-->
+            <div class="nav-row">
+            <p>Bill Sheng 2018. Made from scratch.</p>
+            </div>
         
         </section>
         

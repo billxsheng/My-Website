@@ -17,9 +17,20 @@ body{
 
 
 .row {
-    max-width: 100%;
-    
+    max-width: 1140px;
+    margin: 0 auto;
 }
+
+.nav-row {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.button-row {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
 section {
     padding: 80px 0;
 }
@@ -30,7 +41,11 @@ div {
     padding-top: 0;
 }
 
-
+h2{
+    color: #000;
+    font-size: 70px;
+    text-align: center;
+}
 /*HEADER/MAIN*/
 
 header {
@@ -46,6 +61,58 @@ header {
     margin: 0;
 }
 
+.nav {
+    list-style: none;
+    text-align: center;
+    font-size: 15px;
+    top: 25px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 130px;
+    font-size: 60px;
+}
+
+.about-links {
+    text-align: center;
+
+}
+
+.about-links a {
+    text-decoration: none;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 5px 20px;
+    border-radius: 8px;
+    transition: background-color 0.2s;
+    position: relative;
+    z-index: 9999;
+}
+
+.about-links a:hover {
+    background-color: #0087fd;
+}
+
+.about-arrow a {
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+    transition: color 0.2s;
+}
+
+.about-arrow a:hover {
+    color: #fef;
+}
+
+/*--
 .name-line {
     width: 200px;
     margin-left: 43.5%;
@@ -107,6 +174,7 @@ header {
 .main-nav2 li a:active {
     color: #445aa2;
 }
+*/
 
 .sticky {
     position: fixed;
@@ -116,7 +184,7 @@ header {
     border-bottom: 1px solid rgba(68, 90, 162, 0.67);
 }
 
-header h1 {
+/*header h1 {
     padding-top: 200px;
     font-size: 400%;
     text-align: center;
@@ -166,20 +234,9 @@ header h1 {
 .main-links a:active:first-child,
 .main-links a:active:last-child{
     transform: scale(0.9);
-}
-    
-.arrow-icon {
-    color: #fff;
-    font-size: 200%;
-    position: absolute;
-    left: 49.3%;
-    top: 530px;
-    transition: color 0.2s;
-}
+}*/
+ 
 
-.arrow-icon:hover {
-    color: #445aa2;
-}
 
 /*ABOUT*/
 }
@@ -189,9 +246,18 @@ body {
 
 .about-me {
     background-color: #f2f1f1;
-    height: 100vh;
+    height: 120vh;
 }
 
+.about-me p {
+    color: #000;
+    text-align:center;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+/*
 .about-me h2 {
     color: #000;
     font-size: 300%;
@@ -365,6 +431,7 @@ h6 {
 .about-button2:active {
     transform: scale(0.9);
 }
+*/
 
 
 
@@ -387,24 +454,12 @@ h6 {
 }
 
 
-.projects h1 {
-    font-size: 300%;
-    color: #000;
-    font-family: 'proxima nova';
-    position: relative;
-    left: 85px;
-    top: 100px;
-    
-}
-
 .projects p {
-    font-size: 20px;
+    font-size: 18px;
     color: #000;
-    width: 600px;
-    line-height: 40px;
-    position: relative;
-    left: 85px;
-    top: 100px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 25px;
 }
 
 
@@ -422,22 +477,13 @@ h6 {
     background-color: #f2f1f1;
     height:100vh;
 }
-.gallery h1 {
-    text-align: center;
-    color: black;
-    font-size: 300%;
-    position: relative;
-    top: 100px;
-}
 
 .gallery p {
     text-align: center;
-    color: black;
-    position: relative;
-    top: 100px;
+    color: #000;
+    font-size: 18px;
+    margin-top: 10px;
 
-    
-    
 }
 /*BACKGROUND4*/
    .background4 {
@@ -583,7 +629,7 @@ input[type=submit]:active {
     height: 300px;
 }
 
-.sec-nav1 {
+/*.sec-nav1 {
     float: left;
     position: absolute;
     left: 400px;
@@ -623,15 +669,26 @@ input[type=submit]:active {
 .sec-nav2 li a:hover,
 .sec-nav2 li a:active {
     color: #445aa2;
+}*/
+
+.footer-nav a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+.footer-nav {
+    text-align: center;
+    list-style: none;
+    font-size: 12px;
 }
 
-
 .footer p {
+    color: #fff;
+    margin-top: 100px;
     text-align: center;
-    font-size: 70%;
-    position: relative;
-    top: 80px;
-
+    font-size: 15px;
+    
+}
 
 
 
