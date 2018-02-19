@@ -1,0 +1,191 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+html,
+body{
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size:20px;
+    background-color: #fff;
+    overflow-x: hidden; 
+}
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.nav-row {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.project-row {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.button-row {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 60px 0;
+}
+
+
+div {
+    position: relative;
+    padding-top: 0;
+}
+
+h2{
+    color: #000;
+    font-size: 60px;
+    text-align: center;
+}
+/*HEADER/MAIN*/
+
+header img {
+    width: 70px;
+    position: relative;
+    top: -25px;
+    left: 10%;
+}
+
+.nav-background {
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    background-color: #000;
+}
+
+.nav {
+    text-align: center;
+    font-size: 15px;
+    top: 25px;
+    list-style: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.2s;
+}
+.nav a:hover {
+    color: #bbdefb;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    background-color: rgb(0, 0, 0); 
+    border-bottom: 4px solid #bbdefb;
+}
+
+
+/*PROJECTS*/
+
+.projecttitle {
+    height: 35vh;
+}
+
+.projecttitle h1 {
+    color: #000;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 60px;
+}
+
+.prog {
+    background-color:#f2f1f1;
+    height: 65vh;
+}
+
+.myweb {
+    height: 65vh;
+}
+.point {
+    color: #bbdefb;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: left;
+}
+h3 {
+    font-size: 15px;
+    color: #000;
+    margin:5px 0 45px 0;
+}
+
+h4 {
+    font-size: 15px;
+    color: #000;
+    font-weight: 100;
+    width: 400px;
+    line-height: 25px;
+}
+
+.prog h2 {
+    margin-top: 60px;
+}
+
+.prog img {
+    width: 400px;
+    margin-top: 50px;
+    
+    
+}
+
+.myweb h2 {
+    margin-top: 90px;
+}
+
+
+
+/*FOOTER*/
+.footer {
+    background-color: #000;
+    height: 250px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.2s;
+}
+
+.footer-nav a:hover {
+    color: #bbdefb;
+}
+
+.footer img {
+    width: 50px;
+    position: relative;
+    top: -15px;
+    left: 5%;
+}
+
+.footer-nav {
+    text-align: center;
+    list-style: none;
+    font-size: 12px;
+}
+
+.footer p {
+    color: #fff;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 12px;
+    
+}
