@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
 html,
 body{
     color: #ffffff;
@@ -15,19 +13,17 @@ body{
     overflow-x: hidden; 
 }
 
-
 .row {
     max-width: 1140px;
     margin: 0 auto;
 }
-
 
 .nav-row {
     max-width: 550px;
     margin: 0 auto;
 }
 
-.project-row {
+.about-row {
     max-width: 900px;
     margin: 0 auto;
 }
@@ -92,28 +88,46 @@ header img {
     border-bottom: 4px solid #bbdefb;
 }
 
-
 /*PROJECTS*/
 
-.projecttitle {
+.abouttitle {
     height: 35vh;
 }
 
-.projecttitle h1 {
+.abouttitle h1 {
     color: #000;
     text-align: center;
     font-size: 60px;
     margin-top: 60px;
 }
 
-.prog {
+.hometown {
     background-color:#f2f1f1;
     height: 65vh;
 }
 
-.myweb {
+.edu {
     height: 65vh;
 }
+
+.major {
+    background-color:#f2f1f1;
+    height: 65vh;
+}
+.sports {
+    height: 65vh;
+}
+
+.hobbies {
+    background-color:#f2f1f1;
+    height: 65vh;
+}
+
+
+.interests {
+    height: 65vh;
+}
+
 .point {
     color: #bbdefb;
 }
@@ -125,7 +139,7 @@ h2 {
 h3 {
     font-size: 15px;
     color: #000;
-    margin:5px 0 20px 0;
+    margin:10px 0 10px 0;
 }
 
 h4 {
@@ -136,21 +150,48 @@ h4 {
     line-height: 25px;
 }
 
-.prog h2 {
+.hometown h2 {
     margin-top: 60px;
 }
 
-.prog img {
+.hometown img {
+    width: 400px;
+    margin-top: 50px;  
+}
+
+.edu h2 {
+    margin-top: 70px;
+}
+
+.major h2 {
+    margin-top: 60px;
+}
+
+.major img {
     width: 400px;
     margin-top: 50px;
-    
-    
 }
 
-.myweb h2 {
-    margin-top: 90px;
+.sports h2 {
+    margin-top: 70px;
 }
 
+.hobbies h2 {
+    margin-top: 60px;
+}
+
+.hobbies img {
+    width: 400px;
+    margin-top: 50px;
+}
+.sports h3,
+.hobbies h3 {
+    margin: 5px 0 10px 0;
+}
+
+.interests h2 {
+    margin-top: 70px;
+}
 
 
 /*FOOTER*/

@@ -4,28 +4,39 @@
         <link rel="stylesheet" type="text/css" href="resources/css/home.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/Grid.css">
-        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/homequeries.css">
         <link rel="stylesheet" type="text/css" href="vendors/fonts/ionicons.min.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700" rel="stylesheet">
         <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     </head> 
+    <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicon_package_v0.16/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicon_package_v0.16/favicon-16x16.png">
+    <link rel="manifest" href="/resources/favicon_package_v0.16/site.webmanifest">
+    <link rel="mask-icon" href="/resources/favicon_package_v0.16/safari-pinned-tab.svg" color="#000000">
+    <link rel="shortcut icon" href="/resources/favicon_package_v0.16/favicon.ico">
+    <meta name="msapplication-TileColor" content="#030303">
+    <meta name="msapplication-config" content="/resources/favicon_package_v0.16/browserconfig.xml">
+    <meta name="theme-color" content="#000000">
+    
+    
     <body>
         <header>
             <nav class= "sticky">
                 <div class="nav-background">
                     <div class="nav-row">
                         <div class="col span-1-of-5 nav">
-                                <a href="#about">ABOUT</a>
+                                <a href="about.html">ABOUT</a>
                             </div>
                             <div class="col span-1-of-5 nav">
                                 <a href="projects.html">PROJECTS</a>
                             </div>
                             <div class="col span-1-of-5 mylogo">
-                                <img src="resources/images/billlogo3.png">
+                                <a href="#home"><img src="resources/images/billlogo3.png"></a>
                             </div>
                             <div class="col span-1-of-5 nav">
-                                <a href="#gallery">GALLERY</a>
+                                <a href="gallery.html">GALLERY</a>
                             </div>
                             <div class="col span-1-of-5 nav">
                                <a href="#contact">CONTACT</a>
@@ -34,7 +45,7 @@
                 </div>
             </nav>
                 
-            <div class="row">
+            <div class="row" id="home">
                 <h1>Hey, I'm Bill.</h1>
             </div>
             <div class="button-row">
@@ -65,17 +76,17 @@
                 <div class="col span-1-of-6 about-container">
                     <h4>Hometown</h4>
                     <i class="fas fa-home icon-about"></i>
-                    <h5><br>Markham, Ontario</h5>
+                    <h5>Markham, Ontario<br></h5>
                  </div>
                 <div class="col span-1-of-6 about-container">
                     <h4>Education</h4>
                         <i class="fas fa-graduation-cap icon-about"></i>
-                        <h5><br>University of Waterloo</h5>
+                        <h5>University of Waterloo</h5>
                 </div>
                 <div class="col span-1-of-6 about-container">
                     <h4>Major</h4>
                         <i class="ion-ios-book icon-about"></i>
-                        <h5><br>Management Engineering</h5>
+                        <h5>Management Engineering <br> Class of 2022</h5>
                 </div>
                 <div class="col span-1-of-6 about-container">
                     <h4>Sports</h4>
@@ -229,16 +240,16 @@
         <section class="footer">
             <div class = "nav-row">
                 <div class="col span-1-of-5 footer-nav">
-                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
                 </div>
                 <div class="col span-1-of-5 footer-nav">
                     <li><a href="projects.html">PROJECTS</a></li>
                 </div>
                 <div class="col span-1-of-5 footer-nav">
-                    <li><img src="resources/images/billlogo3.png"></li>
+                    <li><a href="#home"><img src="resources/images/billlogo3.png"></a></li>
                 </div>
                 <div class="col span-1-of-5 footer-nav">
-                    <li><a href="#gallery">GALLERY</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
                 </div>
                 <div class="col span-1-of-5 footer-nav">
                     <li><a href="#contact">CONTACT</a></li>

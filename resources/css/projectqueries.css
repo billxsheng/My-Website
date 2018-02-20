@@ -1,0 +1,80 @@
+/* Small tablets to big tablets from 1023 to 1200 px*/
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Small tablets to big tablets from 767 to 1023 px*/
+@media only screen and (max-width: 1023px) {
+    .prog-descript,
+    .myweb-descript{
+        padding: 0 30px;
+        position: relative;
+        bottom: 30px;
+    }
+    .prog-photo img {
+    }
+    
+    .myweb-descript {
+        position: relative;
+    }
+    h4 {
+        width: 300px;
+    }
+}
+
+
+/* Small phones to small tablets from 480 to 767 px*/
+@media only screen and  (max-width: 767px){
+    .prog,
+    .myweb{
+        height: 80vh;
+    }
+    .nav {
+        font-size: 12px;
+    }
+    .prog-descript {
+        width: 100% !important;
+        position: relative; 
+        bottom: 80px;
+    }
+    h2 {
+        font-size: 100%;
+    }
+
+    h4 {
+        width: 100%;
+        padding-right: 10px;
+    }
+    
+    .prog-photo {
+        bottom: 80px;
+        position: relative;
+    }
+    
+    .myweb-descript {
+        float: left;
+        width:100% !important;
+        bottom: 80px;
+    }
+
+}
+
+
+/* Small phones from 0 to 480 px*/
+@media only screen and  (max-width: 480px){
+    .nav {
+        font-size: 12px;
+        position: relative;
+        left: 10px;
+        top: 30px;
+    }
+    .footer li {
+        position: relative;
+        left: 8px;
+    }
+    .prog-photo img {
+        width: 360px;
+        margin-left: 10px;
+    }
+
+}
