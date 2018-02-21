@@ -12,6 +12,7 @@
         bottom: 30px;
     }
     .prog-photo img {
+        padding-right: 40px;
     }
     
     .myweb-descript {
@@ -20,6 +21,7 @@
     h4 {
         width: 300px;
     }
+    
 }
 
 
@@ -74,7 +76,11 @@
     }
     .prog-photo img {
         width: 360px;
-        margin-left: 10px;
+        margin-left: 30px;
+    }
+    .prog,
+    .myweb {
+        height: 70vh;
     }
 
 }

@@ -62,9 +62,9 @@ header {
 header img {
     width: 70px;
     position: relative;
-    left: 25%;
+    top: -25px;
+    left: 10%;
 }
-
 
 .nav-background {
     width: 100%;
@@ -96,26 +96,9 @@ header h1 {
     color: #000;
 }
 
-.about-links {
+.resume1 {
+    display: block;
     text-align: center;
-
-}
-
-.about-links a {
-    text-decoration: none;
-    color: #000000;
-    background-color: #ffffff;
-    padding: 10px 30px;
-    border-radius: 25px;
-    transition: background-color 0.2s, color 0.2s;
-    position: relative;
-    z-index: 9998;
-    border: 1px solid #000;
-}
-
-.about-links a:hover {
-    background-color: #000;
-    color: #fff;
 }
 
 .about-arrow a {
@@ -155,9 +138,8 @@ body {
     text-align: center;
     font-size: 16px;
     line-height: 25px;
-    margin: 30px 30% 40px 30%;
+    margin: 30px 20% 40px 20%;
     font-weight: 200;
-    
 }
 
 .about-container {
@@ -167,7 +149,6 @@ body {
     border-radius: 10px;
     box-shadow: 5px 5px 10px #bababa;
     transition: transform 0.2s;
-    
 }
 
 .about-container:hover {
@@ -237,10 +218,6 @@ h5 {
     background-size: cover;
 }
 
-
-
-
-
 /*PROJECTS*/
 .projects {
     background-color: #fff;
@@ -254,7 +231,6 @@ h5 {
     height: 25vh;
     background-size: cover;
 }
-
 
 /*GALLERY*/
 .gallery {
@@ -307,7 +283,7 @@ h5 {
     color: #000;
     height: 250px;
     text-align: center;
-    width: 380px;
+    width: 33.33333333333%;
     padding: 0 30px;
 }
 
