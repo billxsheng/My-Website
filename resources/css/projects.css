@@ -1,6 +1,7 @@
 * {
     margin:0;
     padding:0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -78,6 +79,7 @@ header img {
 .nav a {
     text-decoration: none;
     color: #fff;
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 .nav a:hover {
@@ -150,7 +152,19 @@ h4 {
 .myweb h2 {
     margin-top: 90px;
 }
+.myweb img {
+    width: 390px;
+    margin-top: 50px;
 
+}
+.js--prog,
+.js--myweb{
+    opacity: 0;
+}
+.js--prog.animated,
+.js--myweb.animated{
+    opacity: 1;
+}
 
 
 /*FOOTER*/
@@ -162,6 +176,7 @@ h4 {
 .footer-nav a {
     text-decoration: none;
     color: #fff;
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 

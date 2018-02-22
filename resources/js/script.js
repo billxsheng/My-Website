@@ -16,9 +16,39 @@ $(document).ready(function() {
         }
       });
     });
+    
+    
+    
+    
+//animations
+    $('.js--button').waypoint(function(direction){
+        $('.js--button').addClass('animated jello');
+    }, {
+        offset: '50%'
+});
+    $('.js--button2').waypoint(function(direction){
+        $('.js--button2').addClass('animated jello');
+    }, {
+        offset: '100%'
+});
+    $('.js--button3').waypoint(function(direction){
+        $('.js--button3').addClass('animated jello');
+    }, {
+        offset: '100%'
+});
+    $('.js--arrow').waypoint(function(direction){
+        $('.js--arrow').addClass('animated bounceInUp');
+    }, {
+        offset: '100%'
+});
+    $('.js--social').waypoint(function(direction){
+        $('.js--social').addClass('animated shake');
+    }, {
+        offset: '100%'
+});
 });
 
-if (window.location.hash)
+/*if (window.location.hash)
     scroll(0,0);
 // takes care of some browsers issue
 setTimeout(function(){scroll(0,0);},1);
@@ -39,7 +69,8 @@ if(window.location.hash){
         scrollTop:$(window.location.hash).offset().top + 'px'
         },1000,'swing');
     }
-});
+});*/
+
 
 
 

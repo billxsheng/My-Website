@@ -98,13 +98,16 @@
         width: 100%;
     }
     .contact-me1 {
-        height: 195vh;
+        height: 190vh;
     }
     .contact-social-icons {
         font-size: 30px;
-        margin-top:40px;
+        margin-top:10px;
     }
     .contact-container {
         width: 100%;
+    }
+    .row {
+        padding: 0 3%;
     }
 }

@@ -1,11 +1,23 @@
 /* Small tablets to big tablets from 1023 to 1200 px*/
 @media only screen and (max-width: 1200px) {
-
+    .about-row {
+        padding: 0 3%;
+    }
+    .edu img {
+        position: relative;
+        right: 8%;
+    }
 }
 
 /* Small tablets to big tablets from 767 to 1023 px*/
 @media only screen and (max-width: 1023px) {
+    .about-row {
+        padding: 0 3%;
+    }
+    .major iframe {
 
+        
+    }
 }
 
 
@@ -13,6 +25,29 @@
 @media only screen and  (max-width: 767px){
     .nav {
         font-size: 12px;
+    }
+    .about-row {
+        padding: 0 3%;
+    }
+    .interests img {
+        width: 300px;
+        position: relative;
+        top: 50px;
+    }
+    .hometown img {
+        width: 300px;
+        position: relative;
+        top: 50px;
+        left: 50px;
+    }
+    .edu img {
+        width: 350px;
+        position: relative;
+        top: 20px;
+        left: 1px;
+    }
+    .descript {
+        
     }
 }
 
@@ -29,4 +64,85 @@
         position: relative;
         left: 8px;
     }
+    .about-row {
+        padding: 0 3%;
+    }
+    
+    .major,
+    .interests,
+    .sports{
+        height: 90vh;
+    }
+    .hobbies {
+        height: 105vh;
+    }
+    .edu {
+        height: 80vh;
+    }
+    .hometown {
+        height: 75vh;
+    }
+    
+    .descript-hometown {
+        bottom: 70px;
+    }
+    .hometown img {
+        position: relative;
+        left: 50%;
+        margin-left: -150px;
+        top: -30px;
+    }
+    .edu img {
+        left: 50%;
+        margin-left: -175px;
+        top: -20px;
+    }
+    .descript-edu {
+        top: -30px;
+    }
+    .descript-sports {
+        top: -50px;
+    }
+    .descript-hobbies {
+        top: -80px;
+    }
+    .hobbies iframe {
+        position: relative;
+        top: -20px;
+    }
+    .major iframe {
+       position: relative;
+        left: 50%;
+        margin-left: -170px;
+        top: 50px;
+    }
+    .major h2 {
+        margin: 0;
+    }
+    .sports img {
+        left: 50%;
+        margin-left: -120px;
+
+    }
+    
+    .hobbies iframe {
+        margin-top: 10px;
+    }
+    .interests img {
+        left:50%;
+        margin-left: -150px;
+        top: -30px;
+    }
+    .descript-interests {
+        top: -40px;
+    } 
+    .descript-hometown,
+    .descript-edu,
+    .descript-major,
+    .descript-sports,
+    .descript-hobbies,
+    .descript-interests {
+        left: 10px;
+    }
+
 }

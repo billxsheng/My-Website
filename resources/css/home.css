@@ -20,6 +20,9 @@ body{
     max-width: 1140px;
     margin: 0 auto;
 }
+p {
+    font-weight: 200;
+}
 
 .single-button {
     max-width: 150px;
@@ -99,6 +102,9 @@ header h1 {
 .resume1 {
     display: block;
     text-align: center;
+    text-decoration: none;
+    color: #000;
+    padding: 0;
 }
 
 .about-arrow a {
@@ -136,10 +142,9 @@ body {
 .about-me p {
     color: #000;
     text-align: center;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 25px;
     margin: 30px 20% 40px 20%;
-    font-weight: 200;
 }
 
 .about-container {
@@ -224,6 +229,13 @@ h5 {
     height: 100vh;
 }
 
+.projects p {
+    color: #000;
+    font-size: 15px;
+    margin-top: 30px;
+    text-align: center;
+}
+
 /*BACKGROUND3*/
 .background3 {
     background-image: url(images/purple_sunset-wallpaper-1680x1050.jpg);
@@ -245,9 +257,8 @@ h5 {
 .gallery p {
     text-align: center;
     color: #000;
-    font-size: 16px;
-    margin-top: 50px;
-    font-weight: 200;
+    font-size: 15px;
+    margin-top: 30px;
 }
 
 .photo-container img {
@@ -305,7 +316,7 @@ h5 {
     top: 60px;
     font-size: 15px;
     font-weight: 200;
-    color: #989898;
+    color: #000;
 }
 
 .contact-container a {
@@ -477,6 +488,13 @@ input[type=submit]:active {
     
 }
 
+/*ANIMATIONS*/
+.js--button {
+    opacity: 0;
+}
+.js--button.animated {
+    opacity: 1;
+}
 
 
 

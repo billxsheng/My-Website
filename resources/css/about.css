@@ -1,6 +1,7 @@
 * {
     margin:0;
     padding:0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -16,6 +17,9 @@ body{
 .row {
     max-width: 1140px;
     margin: 0 auto;
+}
+p {
+    font-weight: 200;
 }
 
 .nav-row {
@@ -74,6 +78,7 @@ header img {
 .nav a {
     text-decoration: none;
     color: #fff;
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 .nav a:hover {
@@ -146,7 +151,7 @@ h4 {
     font-size: 15px;
     color: #000;
     font-weight: 100;
-    width: 400px;
+    width: 350px;
     line-height: 25px;
 }
 
@@ -155,12 +160,19 @@ h4 {
 }
 
 .hometown img {
-    width: 400px;
-    margin-top: 50px;  
+    width: 450px;
+    border-radius: 8px;
+
 }
 
 .edu h2 {
     margin-top: 70px;
+}
+
+.edu img {
+    width: 420px;
+    border-radius: 8px;
+    margin-top: 5%;
 }
 
 .major h2 {
@@ -176,6 +188,14 @@ h4 {
     margin-top: 70px;
 }
 
+.sports img {
+    width: 250px;
+    position: relative;
+    left: 50%;
+    margin-left: -100px;
+    border-radius: 8px;
+}
+
 .hobbies h2 {
     margin-top: 60px;
 }
@@ -184,6 +204,11 @@ h4 {
     width: 400px;
     margin-top: 50px;
 }
+
+.hobbies a {
+    height: 100px;
+}
+
 .sports h3,
 .hobbies h3 {
     margin: 5px 0 10px 0;
@@ -193,6 +218,11 @@ h4 {
     margin-top: 70px;
 }
 
+.interests img {
+    width: 400px;
+    margin-top: 10%;
+    border-radius: 8px;
+}
 
 /*FOOTER*/
 .footer {
@@ -203,6 +233,7 @@ h4 {
 .footer-nav a {
     text-decoration: none;
     color: #fff;
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 
@@ -229,4 +260,18 @@ h4 {
     text-align: center;
     font-size: 12px;
     
+}
+/*ANIMATIONS*/
+.js--right,
+.js--left,
+.js--left2,
+.js--left3{
+    opacity: 0;
+}
+
+.js--right.animated,
+.js--left.animated,
+.js--left2.animated,
+.js--left3.animated {
+    opacity: 1;
 }
