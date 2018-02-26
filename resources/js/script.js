@@ -42,9 +42,9 @@ $(document).ready(function() {
         offset: '100%'
 });
     $('.js--social').waypoint(function(direction){
-        $('.js--social').addClass('animated bounceInLeft');
+        $('.js--social').addClass('animated jackInTheBox');
     }, {
-        offset: '70%'
+        offset: '80%'
 });
 });
 

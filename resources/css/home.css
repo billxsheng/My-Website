@@ -99,19 +99,16 @@ header h1 {
     color: #000;
 }
 
-.resume1 {
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    color: #000;
-    padding: 0;
-}
+
+
+
 
 .about-arrow a {
     color: #000;
     display: block;
     text-align: center;
-    margin-top: 300px;
+    position: relative;
+    top: 300px;
     font-size: 50px;
     transition: color 0.2s;
 }
@@ -195,7 +192,10 @@ h5 {
     top: 10px;
     color: #000;
 }
-
+.resume {
+    position: relative;
+    top: 250px;
+}
 .about-more a  {
     text-decoration: none;
     color: #000;
