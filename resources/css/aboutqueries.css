@@ -71,16 +71,16 @@
     .major,
     .interests,
     .sports{
-        height: 90vh;
+        height: 652.5px;
     }
     .hobbies {
-        height: 105vh;
+        height: 761.15px;
     }
     .edu {
-        height: 80vh;
+        height: 580px;
     }
     .hometown {
-        height: 75vh;
+        height: 543.75px;
     }
     
     .descript-hometown {

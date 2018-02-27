@@ -94,7 +94,7 @@ header img {
 
 /*GALLERY*/
 .gallerytitle {
-    height: 35vh;
+    height: 253.75px;
 }
 
 .gallerytitle h1 {
@@ -105,7 +105,7 @@ header img {
 }
 
 .gallery {
-    height: 100vh;
+    height: 725px;
     background-color: #f1f2f2;
 }
 

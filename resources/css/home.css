@@ -58,7 +58,7 @@ h2{
 header {
     background-color: #ffffff;
     background-size: cover;
-    height:100vh;
+    height:725px;
     background-attachment: fixed;   
 }
 
@@ -133,7 +133,7 @@ body {
 
 .about-me {
     background-color: #f2f1f1;
-    height: 100vh;
+    height: 725px;
 }
 
 .about-me p {
@@ -219,14 +219,14 @@ h5 {
 .background2 {
     background-image: url(images/Media.jpg);
     background-attachment:fixed;
-    height: 25vh;
+    height: 181.25px;
     background-size: cover;
 }
 
 /*PROJECTS*/
 .projects {
     background-color: #fff;
-    height: 100vh;
+    height: 725px;
 }
 
 .projects p {
@@ -240,14 +240,14 @@ h5 {
 .background3 {
     background-image: url(images/purple_sunset-wallpaper-1680x1050.jpg);
     background-attachment:fixed;
-    height: 25vh;
+    height: 181.25px;
     background-size: cover;
 }
 
 /*GALLERY*/
 .gallery {
     background-color: #f2f1f1;
-    height:100vh;
+    height:725px;
 }
 
 .gallery h2 {
@@ -277,13 +277,13 @@ h5 {
    .background4 {
     background-image: url(images/333950.jpg);
     background-attachment:fixed;
-    height: 25vh;
+    height: 181.25px;
     background-size: cover;
 }
 
 /*CONTACT*/
 .contact-me1 {
-    height: 80vh;
+    height: 580px;
     background-color: #fff;
 }
 .contact-me1 h2 {
@@ -501,6 +501,22 @@ input[type=submit]:active {
 .js--social.animated {
     opacity: 1;
 }
+.js--aboutleft {
+    opacity: 0
+}
+
+.js--aboutleft.animated {
+    opacity: 1;
+}
+
+.js--aboutright {
+    opacity: 0;
+}
+
+.js--aboutright.animated {
+    opacity: 1;
+}
+
 
 
 

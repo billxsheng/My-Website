@@ -86,19 +86,19 @@
         left: 8px;
     }
     .about-me {
-        height: 240vh;
+        height: 1812.5px;
     }
     .about-container {
         border-radius: 0;
     }
     .gallery {
-        height: 275vh;
+        height: 1703.75px;
     }
     .photo-container img {
         width: 100%;
     }
     .contact-me1 {
-        height: 190vh;
+        height:1450px;
     }
     .contact-social-icons {
         font-size: 30px;

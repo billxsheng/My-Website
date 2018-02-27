@@ -22,19 +22,9 @@ $(document).ready(function() {
     
 //animations
     $('.js--button').waypoint(function(direction){
-        $('.js--button').addClass('animated jello');
+        $('.js--button').addClass('animated ');
     }, {
         offset: '50%'
-});
-    $('.js--button2').waypoint(function(direction){
-        $('.js--button2').addClass('animated jello');
-    }, {
-        offset: '100%'
-});
-    $('.js--button3').waypoint(function(direction){
-        $('.js--button3').addClass('animated jello');
-    }, {
-        offset: '100%'
 });
     $('.js--arrow').waypoint(function(direction){
         $('.js--arrow').addClass('animated bounceInUp');
@@ -43,6 +33,16 @@ $(document).ready(function() {
 });
     $('.js--social').waypoint(function(direction){
         $('.js--social').addClass('animated jackInTheBox');
+    }, {
+        offset: '80%'
+});
+    $('.js--aboutleft').waypoint(function(direction){
+        $('.js--aboutleft').addClass('animated rotateInDownLeft');
+    }, {
+        offset: '80%'
+});
+    $('.js--aboutright').waypoint(function(direction){
+        $('.js--aboutright').addClass('animated rotateInDownRight');
     }, {
         offset: '80%'
 });
