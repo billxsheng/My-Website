@@ -53,13 +53,25 @@ h2{
     font-size: 60px;
     text-align: center;
 }
+
+.main-line {
+    width: 150px;
+    text-align: center;
+    color: #bbdefb;
+    position: relative;
+    left: 50%;
+    margin-left: -80px;
+    border: 2px solid #bbdefb; 
+}
+
 /*HEADER/MAIN*/
 
 header {
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.7)), url(images/background1.jpg);
     background-color: #ffffff;
     background-size: cover;
-    height:725px;
-    background-attachment: fixed;   
+    height:750px;
+    background-attachment: fixed;  
 }
 
 header img {
@@ -96,7 +108,12 @@ header h1 {
     text-align: center;
     margin-top: 130px;
     font-size: 30px;
-    color: #000;
+    color: #fff;
+
+}
+
+header h1 span {
+    color: #bbdefb;
 }
 
 
@@ -104,7 +121,7 @@ header h1 {
 
 
 .about-arrow a {
-    color: #000;
+    color: #ffffff;
     display: block;
     text-align: center;
     position: relative;
@@ -217,7 +234,7 @@ h5 {
 
 /*BACKGROUND2*/
 .background2 {
-    background-image: url(images/Media.jpg);
+    background-image: url(images/background2.jpg);
     background-attachment:fixed;
     height: 181.25px;
     background-size: cover;
@@ -236,9 +253,14 @@ h5 {
     text-align: center;
 }
 
+.cmon {
+    position: relative;
+    top: 40px;
+}
+
 /*BACKGROUND3*/
 .background3 {
-    background-image: url(images/purple_sunset-wallpaper-1680x1050.jpg);
+    background-image: url(images/background3.jpg);
     background-attachment:fixed;
     height: 181.25px;
     background-size: cover;
@@ -275,7 +297,7 @@ h5 {
 }
 /*BACKGROUND4*/
    .background4 {
-    background-image: url(images/333950.jpg);
+    background-image: url(images/background4.jpg);
     background-attachment:fixed;
     height: 181.25px;
     background-size: cover;
