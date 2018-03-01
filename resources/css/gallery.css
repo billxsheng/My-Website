@@ -43,11 +43,14 @@ div {
     position: relative;
     padding-top: 0;
 }
-
+h1 {
+    font-weight: 700;
+}
 h2{
     color: #000;
     font-size: 60px;
     text-align: center;
+    font-weight: 700;
 }
 /*HEADER/MAIN*/
 

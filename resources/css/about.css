@@ -46,11 +46,15 @@ div {
     position: relative;
     padding-top: 0;
 }
+h1 {
+    font-weight: 700;
+}
 
 h2{
     color: #000;
     font-size: 60px;
     text-align: center;
+    font-weight: 700;
 }
 /*HEADER/MAIN*/
 
@@ -145,6 +149,7 @@ h3 {
     font-size: 15px;
     color: #000;
     margin:10px 0 10px 0;
+    font-weight: 700;
 }
 
 h4 {
@@ -160,8 +165,9 @@ h4 {
 }
 
 .hometown img {
-    width: 450px;
+    width: 90%;
     border-radius: 8px;
+    margin-top: 30px;
 
 }
 
@@ -170,9 +176,10 @@ h4 {
 }
 
 .edu img {
-    width: 420px;
+    width: 90%;
     border-radius: 8px;
     margin-top: 5%;
+    margin-left: 5%;
 }
 
 .major h2 {
@@ -185,19 +192,20 @@ h4 {
 }
 
 .sports h2 {
-    margin-top: 70px;
+    margin-top: 40px;
 }
 
 .sports img {
-    width: 250px;
+    width: 65%;
     position: relative;
     left: 50%;
     margin-left: -100px;
     border-radius: 8px;
+    top: -20px;
 }
 
 .hobbies h2 {
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .hobbies img {
@@ -215,13 +223,15 @@ h4 {
 }
 
 .interests h2 {
-    margin-top: 70px;
+   margin-top: 5%;
 }
 
 .interests img {
-    width: 400px;
-    margin-top: 15%;
+    width: 95%;
+    position: relative;
     border-radius: 8px;
+    
+    
 }
 
 /*FOOTER*/

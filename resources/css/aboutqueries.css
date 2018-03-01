@@ -14,9 +14,8 @@
     .about-row {
         padding: 0 3%;
     }
-    .major iframe {
-
-        
+    .interests img {
+        top: 20px;;
     }
 }
 
@@ -37,8 +36,9 @@
     .hometown img {
         width: 300px;
         position: relative;
-        top: 50px;
-        left: 50px;
+        top: 40px;
+        left: 30px;
+        
     }
     .edu img {
         width: 350px;
@@ -113,7 +113,7 @@
     .major iframe {
        position: relative;
         left: 50%;
-        margin-left: -170px;
+        margin-left: -175px;
         top: 50px;
     }
     .major h2 {
@@ -121,8 +121,7 @@
     }
     .sports img {
         left: 50%;
-        margin-left: -120px;
-
+        margin-left: -125px;
     }
     
     .hobbies iframe {

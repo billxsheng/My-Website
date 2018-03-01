@@ -54,7 +54,7 @@
         font-size: 12px;
     }
     .about-me {
-        height: 300vh;
+        height: 225vh;
     }
     about-me p {
         width: 100%;
@@ -81,6 +81,15 @@
         left: 10px;
         top: 30px;
     }
+    
+    header h1 {
+    text-align: center;
+    margin-top: 130px;
+    font-size: 30px;
+    color: #fff;
+    text-rendering: optimizeLegibility;
+    }
+    
     .footer li {
         position: relative;
         left: 8px;
@@ -92,7 +101,7 @@
         border-radius: 0;
     }
     .gallery {
-        height: 1703.75px;
+        height: 1800px;
     }
     .photo-container img {
         width: 100%;
@@ -109,5 +118,20 @@
     }
     .row {
         padding: 0 3%;
+    }
+    
+    .background2,
+    .background3,
+    .background4{
+        display: none;
+    }
+    
+    /*images*/
+    header {
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(images/background1mob.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(images/background1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 }
