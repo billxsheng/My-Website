@@ -149,7 +149,7 @@ h4 {
 }
 
 .prog img {
-    width: 400px;
+    width: 80%;
     margin-top: 50px;
     
     
@@ -159,8 +159,8 @@ h4 {
     margin-top: 90px;
 }
 .myweb img {
-    width: 390px;
-    margin-top: 50px;
+    width: 80%;
+    margin-top: 70px;
 
 }
 .js--prog,

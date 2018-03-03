@@ -29,25 +29,29 @@
         padding: 0 3%;
     }
     .interests img {
-        width: 300px;
+        width: 95%;
         position: relative;
         top: 50px;
     }
+    
+    .hometown h4 {
+        padding-right: 20px;
+    }
     .hometown img {
-        width: 300px;
+        width: 100%;;
         position: relative;
-        top: 40px;
-        left: 30px;
+        top: 20%;
         
+    
+        
+    }
+    .major iframe {
+        padding-right: 5%;
     }
     .edu img {
-        width: 350px;
         position: relative;
-        top: 20px;
-        left: 1px;
-    }
-    .descript {
-        
+        margin-top: 20%;
+
     }
 }
 
@@ -87,24 +91,25 @@
         bottom: 70px;
     }
     .hometown img {
+        width: 80%;
+        margin-top: -30px;
         position: relative;
         left: 50%;
-        margin-left: -150px;
-        top: -30px;
+        margin-left: -40%;
     }
     .edu img {
         left: 50%;
-        margin-left: -175px;
-        top: -20px;
+        margin-left: -45%;
+        top: -60px;
     }
     .descript-edu {
-        top: -30px;
+        top: -70px;
     }
     .descript-sports {
         top: -50px;
     }
     .descript-hobbies {
-        top: -80px;
+        top: -60px;
     }
     .hobbies iframe {
         position: relative;
@@ -113,7 +118,7 @@
     .major iframe {
        position: relative;
         left: 50%;
-        margin-left: -175px;
+        margin-left: -44%;
         top: 50px;
     }
     .major h2 {
@@ -121,7 +126,7 @@
     }
     .sports img {
         left: 50%;
-        margin-left: -125px;
+        margin-left: -32%;
     }
     
     .hobbies iframe {
@@ -129,7 +134,7 @@
     }
     .interests img {
         left:50%;
-        margin-left: -150px;
+        margin-left: -47%;
         top: -30px;
     }
     .descript-interests {

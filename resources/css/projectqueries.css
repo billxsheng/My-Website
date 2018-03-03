@@ -12,7 +12,7 @@
         bottom: 30px;
     }
     .prog-photo img {
-        padding-right: 40px;
+        
     }
     
     .myweb-descript {
@@ -49,8 +49,8 @@
     .prog-photo img {
         position: relative;
         bottom: 80px;
-        left: 50%;
-        margin-left: -30px;
+        width: 100%;
+        left: 50%; 
         
     }
     
@@ -61,8 +61,8 @@
     .myweb img {
         position: relative;
         left: 50%;
-        margin-left: -30px;
         margin-top: 0;
+        width: 110%;
     }
 
 }
@@ -80,16 +80,16 @@
         left: 8px;
     }
     .prog-photo img {
-        width: 360px;
+        width: 78%;
         position: relative;
         left: 50%;
-        margin-left: -160px;
+        margin-left: -38%;
     }
     .myweb img {
-        width: 340px;
+        width: 80%;
         position: relative;
         left: 50%;
-        margin-left: -170px;
+        margin-left: -40%;
         bottom: 20px;
         margin-top: 0;
     }
