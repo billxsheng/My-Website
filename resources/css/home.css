@@ -33,6 +33,13 @@ p {
     max-width: 550px;
     margin: 0 auto;
 }
+.social-row {
+    width: 100px;
+    position: relative;
+    top: 180px;
+    left: 50%;
+    margin-left: -35px;
+}
 
 .button-row {
     max-width: 500px;
@@ -69,12 +76,21 @@ h2{
 /*HEADER/MAIN*/
 
 header {
-    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.7)), url(images/background1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.42)),url(images/Image.jpg);
     background-color: #ffffff;
-    height:800px;
+    height: 800px;
     background-position: center;
     background-repeat:no-repeat;
     background-size: cover;
+}
+
+.social-icon {
+    color: rgba(255, 255, 255, 0.70);
+    transition: color 0.2s;
+}
+
+.social-icon:hover {
+    color: #fff;
 }
 
 header img {
@@ -112,7 +128,7 @@ header img {
 
 header h1 {
     text-align: center;
-    margin-top: 130px;
+    margin-top: 300px;
     font-size: 30px;
     color: #fff;
     font-weight: 500;
@@ -124,14 +140,12 @@ header h1 span {
 
 
 
-
-
 .about-arrow a {
     color: #ffffff;
     display: block;
     text-align: center;
     position: relative;
-    top: 300px;
+    top: 200px;
     font-size: 50px;
     transition: color 0.2s;
 }
@@ -217,7 +231,7 @@ h5 {
 }
 .resume {
     position: relative;
-    top: 250px;
+    top: 180px;
 }
 .about-more a  {
     text-decoration: none;

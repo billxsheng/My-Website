@@ -6,7 +6,8 @@
 /* Small tablets to big tablets from 767 to 1023 px*/
 @media only screen and (max-width: 1023px) {
     .prog-descript,
-    .myweb-descript{
+    .myweb-descript,
+    .moodify-descript{
         padding: 0 30px;
         position: relative;
         bottom: 30px;
@@ -26,13 +27,15 @@
 /* Small phones to small tablets from 480 to 767 px*/
 @media only screen and  (max-width: 767px){
     .prog,
-    .myweb{
+    .myweb,
+    .moodify{
         height: 70vh;
     }
     .nav {
         font-size: 12px;
     }
-    .prog-descript {
+    .prog-descript,
+    .moodify-descript{
         width: 100% !important;
         position: relative; 
         bottom: 80px;
@@ -46,7 +49,8 @@
         padding-right: 10px;
     }
     
-    .prog-photo img {
+    .prog-photo img,
+    .moodify-photo img{
         position: relative;
         bottom: 80px;
         width: 100%;
@@ -79,7 +83,8 @@
         position: relative;
         left: 8px;
     }
-    .prog-photo img {
+    .prog-photo img,
+    .moodify img{
         width: 78%;
         position: relative;
         left: 50%;
@@ -94,7 +99,8 @@
         margin-top: 0;
     }
     .prog,
-    .myweb {
+    .myweb,
+    .moodify{
         height: 508px;
     }
 }

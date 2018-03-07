@@ -9,4 +9,9 @@ $(document).ready(function() {
     }, {
         offset: '80%'
 });
+    $('.js--moodify').waypoint(function(direction) {
+        $('.js--moodify').addClass('animated slideInRight');
+    }, {
+        offset: '80%'
+});
 });

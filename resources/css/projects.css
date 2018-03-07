@@ -120,6 +120,11 @@ header img {
 .myweb {
     height: 65vh;
 }
+
+.moodify {
+    height: 65vh;
+    background-color:#f2f1f1;
+}
 .point {
     color: #bbdefb;
 }
@@ -151,8 +156,6 @@ h4 {
 .prog img {
     width: 80%;
     margin-top: 50px;
-    
-    
 }
 
 .myweb h2 {
@@ -161,14 +164,25 @@ h4 {
 .myweb img {
     width: 80%;
     margin-top: 70px;
-
 }
+
+.moodify h2 {
+    margin-top: 60px;
+}
+
+.moodify img {
+    width: 80%;
+    margin-top: 50px;
+}
+
 .js--prog,
-.js--myweb{
+.js--myweb,
+.js--moodify{
     opacity: 0;
 }
 .js--prog.animated,
-.js--myweb.animated{
+.js--myweb.animated,
+.js--moodify.animated{
     opacity: 1;
 }
 

@@ -22,6 +22,9 @@
     .gallery {
         height: 50%;
     }
+    .social-icon {
+        width: 100%;
+    }
     
     about-me p {
         width: 100%;
@@ -120,6 +123,11 @@
         padding: 0 3%;
     }
     
+    .social-row div {
+        width: 50%;
+    }
+    
+    
     .background2,
     .background3,
     .background4{
@@ -128,8 +136,8 @@
     
     /*images*/
     header {
-        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(images/background1mob.jpg);
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(images/background1.jpg);
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0))), url(images/Image.jpg.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(images/Image.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
