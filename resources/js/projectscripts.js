@@ -25,7 +25,10 @@ $(window).scroll(function(event){
    }
    lastScrollTop = st;
 });
-    
+
+$('*').hide();
+$('*').fadeIn(800);
+
     
 });
 

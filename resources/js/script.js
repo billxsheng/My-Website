@@ -2,7 +2,7 @@ $(document).ready(function() {
     
 // Navigation scroll 
     $(function() {
-     var offset = -47;    
+     var offset = -10;    
       $('a[href*="#"]:not([href="#"])').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
           var target = $(this.hash);
@@ -28,7 +28,13 @@ $(window).scroll(function(event){
    }
    lastScrollTop = st;
 });
-    
+
+$('button').click(function(){
+    $('.sticky').slideUp(200);
+});
+
+$('*').hide();
+$('*').fadeIn(800);
 
     
     

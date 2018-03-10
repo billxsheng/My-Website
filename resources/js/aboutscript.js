@@ -31,4 +31,8 @@ $(window).scroll(function(event){
    lastScrollTop = st;
 });
     
+$('*').hide();
+$('*').fadeIn(600);
+
+
 });
