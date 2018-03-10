@@ -73,9 +73,12 @@
     }
     
     .major,
-    .interests,
     .sports{
         height: 652.5px;
+    }
+    
+    .interests {
+        height: 580px;
     }
     .hobbies {
         height: 761.15px;
@@ -118,8 +121,9 @@
     .major iframe {
        position: relative;
         left: 50%;
-        margin-left: -44%;
+        margin-left: -45%;
         top: 50px;
+        width: 96%;
     }
     .major h2 {
         margin: 0;

@@ -49,19 +49,24 @@
         padding-right: 10px;
     }
     
-    .prog-photo img,
-    .moodify-photo img{
+    .prog-photo img{
         position: relative;
         bottom: 80px;
         width: 100%;
         left: 50%; 
+    }
+    
+    .moodify-photo img {
+        position: relative;
+        left: 75%;
+        
         
     }
     
     .myweb-descript {
         width:100% !important;
-        bottom: 80px;
     }
+    
     .myweb img {
         position: relative;
         left: 50%;
@@ -83,13 +88,20 @@
         position: relative;
         left: 8px;
     }
-    .prog-photo img,
-    .moodify img{
+    .prog-photo img{
         width: 78%;
         position: relative;
         left: 50%;
-        margin-left: -38%;
+        margin-left: -39%;
     }
+    
+    .moodify img {
+        left: 50%;
+        margin-left: -100px;
+        position: relative;
+        top: -50px;
+    }
+    
     .myweb img {
         width: 80%;
         position: relative;
@@ -99,8 +111,11 @@
         margin-top: 0;
     }
     .prog,
-    .myweb,
-    .moodify{
+    .myweb{
         height: 508px;
+    }
+    
+    .moodify {
+        height: 600px;
     }
 }

@@ -112,29 +112,29 @@ header img {
 
 .hometown {
     background-color:#f2f1f1;
-    height: 65vh;
+    height: 490px;
 }
 
 .edu {
-    height: 65vh;
+    height: 450px;
 }
 
 .major {
     background-color:#f2f1f1;
-    height: 65vh;
+    height: 450px;
 }
 .sports {
-    height: 65vh;
+    height: 480px;
 }
 
 .hobbies {
     background-color:#f2f1f1;
-    height: 65vh;
+    height: 480px;
 }
 
 
 .interests {
-    height: 65vh;
+    height: 450px;
 }
 
 .point {
@@ -187,10 +187,7 @@ h4 {
     margin-top: 60px;
 }
 
-.major img {
-    width: 400px;
-    margin-top: 50px;
-}
+
 
 .sports h2 {
     margin-top: 40px;
