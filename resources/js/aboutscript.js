@@ -20,7 +20,7 @@ $(document).ready(function() {
         offset: '100%'
 });
     
-var lastScrollTop = 0;
+/*var lastScrollTop = 0;
 $(window).scroll(function(event){
    var st = $(this).scrollTop();
    if (st > lastScrollTop){
@@ -30,9 +30,6 @@ $(window).scroll(function(event){
    }
    lastScrollTop = st;
 });
-    
-$('*').hide();
-$('*').fadeIn(600);
-
+    */
 
 });

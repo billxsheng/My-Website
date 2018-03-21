@@ -15,7 +15,7 @@ $(document).ready(function() {
         offset: '80%'
 });
     
-var lastScrollTop = 0;
+/*var lastScrollTop = 0;
 $(window).scroll(function(event){
    var st = $(this).scrollTop();
    if (st > lastScrollTop){
@@ -24,10 +24,8 @@ $(window).scroll(function(event){
       $('.sticky').slideDown(200);
    }
    lastScrollTop = st;
-});
+});*/
 
-$('*').hide();
-$('*').fadeIn(800);
 
     
 });
