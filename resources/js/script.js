@@ -1,3 +1,4 @@
+$('body').css('display','none');
 $(document).ready(function() {
     
 // Navigation scroll 
@@ -17,6 +18,8 @@ $(document).ready(function() {
       });
     });
     
+		$('body').fadeIn();
+		
 
 /*var lastScrollTop = 0;
 $(window).scroll(function(event){
@@ -59,7 +62,9 @@ $(window).scroll(function(event){
 
 });
 
-
+setTimeout(function(){
+		$('body').fadeIn();
+	},1000)
 
 
 
