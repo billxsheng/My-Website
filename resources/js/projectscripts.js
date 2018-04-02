@@ -2,17 +2,17 @@ $(document).ready(function() {
     $('.js--prog').waypoint(function(direction) {
         $('.js--prog').addClass('animated slideInRight');
     }, {
-        offset: '80%'
+        offset: '50%'
 });
     $('.js--myweb').waypoint(function(direction) {
         $('.js--myweb').addClass('animated slideInLeft');
     }, {
-        offset: '80%'
+        offset: '50%'
 });
     $('.js--moodify').waypoint(function(direction) {
         $('.js--moodify').addClass('animated slideInRight');
     }, {
-        offset: '80%'
+        offset: '50%'
 });
     
 /*var lastScrollTop = 0;

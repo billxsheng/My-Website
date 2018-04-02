@@ -124,16 +124,16 @@ header img {
 
 .hometown {
     background-color:#f2f1f1;
-    height: 490px;
+    height: 600px;
 }
 
 .edu {
-    height: 450px;
+    height: 560px;
 }
 
 .major {
     background-color:#f2f1f1;
-    height: 450px;
+    height: 600px;
 }
 .sports {
     height: 480px;
@@ -155,13 +155,14 @@ header img {
 
 h2 {
     font-size: 30px;
-    text-align: left;
+    text-align: center;
 }
 h3 {
     font-size: 15px;
     color: #000;
     margin:10px 0 10px 0;
     font-weight: 700;
+    text-align: center;
 }
 
 h4 {
@@ -170,36 +171,37 @@ h4 {
     font-weight: 100;
     width: 100%;;
     line-height: 25px;
+    text-align: center;
 }
 
-.hometown h2 {
-    margin-top: 60px;
-}
+
 
 .hometown img {
-    width: 80%;
+    width: 45%;
     border-radius: 8px;
-    margin-top: 10%;
-
+    margin-top: 4%;
+    position: relative;
+    left: 50%;
+    margin-left: -220px;
 }
 
-.edu h2 {
-    margin-top: 70px;
-}
+
 
 .edu img {
-    width: 90%;
+    width: 50%;
     border-radius: 8px;
-    margin-top: 10%;
-    margin-left: 5%;
-
+    position: relative;
+    margin-top: 4%;
+    left: 50%;
+    margin-left: -230px;
 }
-
-.major h2 {
-    margin-top: 60px;
+            
+.major iframe {
+    position: relative;
+    left: 50%;
+    margin-top: 4%;
+    margin-left: -260px;
 }
-
-
 
 .sports h2 {
     margin-top: 40px;
@@ -496,7 +498,25 @@ h4 {
                 <h1>ABOUT</h1>
             </div>
             </section>
-        <section class="hometown">
+        
+        
+        
+         <section class="hometown">
+            <div class="about-row">
+                <div class="descript-hometown">
+                    <h2>Hometown</h2>
+                    <h3><i class="fas fa-arrow-circle-right point"></i>&nbsp; Markham, ON, Canada</h3>
+                    <h4>Living away from home for the past six months have really shown me how much I love my hometown. I attended Central Park Public School before spending my high school years at Markville Secondary.  </h4>
+                </div>
+                <div class="photo">
+                    <img src="resources/images/markham.jpg" class="js--right">
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        <!--<section class="hometown">
             <div class="about-row">
                 <div class="col span-1-of-2 descript-hometown">
                     <h2>Hometown</h2>
@@ -507,8 +527,22 @@ h4 {
                     <img src="resources/images/markham.jpg" class="js--right">
                 </div>
             </div>
-        </section>
+        </section>-->
+        
         <section class="edu">
+            <div class="about-row">
+            <div class="descript-edu">
+                    <h2>Education</h2>
+                    <h3><i class="fas fa-arrow-circle-right point"></i>&nbsp; University of Waterloo </h3>
+                    <h4>I am currently studying at the University of Waterloo. I chose Waterloo because of their world-class co-op oppurtunities and prestigious engineering program.</h4>
+                </div>
+            <div class="photo">
+                <img src="resources/images/edu.jpg" class='js--left'>
+            </div>
+            </div>
+        </section>
+        
+        <!--<section class="edu">
             <div class="about-row">
                 <div class="col span-1-of-2 photo">
                     <img src="resources/images/edu.jpg" class='js--left'>
@@ -519,8 +553,22 @@ h4 {
                     <h4>I am currently studying at the University of Waterloo. I chose Waterloo because of their world-class co-op oppurtunities and prestigious engineering program.</h4>
                 </div>
             </div>
+        </section>-->
+        
+         <section class="major">
+            <div class="about-row">
+                <div class="descript-major">
+                    <h2>Major</h2>
+                    <h3><i class="fas fa-arrow-circle-right point"></i>&nbsp; Management Engineering</h3>
+                    <h4>Management Engineering is a one-of-a-kind interdisciplinary program (Only one in Canada!) with a split focus in computer science and systems engineering. We use critical thinking and software to improve/develop systems and processes.</h4>
+                </div>
+                <div class="photo">
+                    <iframe width="500" height="315" src="https://www.youtube.com/embed/Zw6UpeFCeN0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+            </div>
         </section>
-        <section class="major">
+        
+       <!-- <section class="major">
             <div class="about-row">
                 <div class="col span-1-of-2 descript-major">
                     <h2>Major</h2>
@@ -531,7 +579,9 @@ h4 {
                     <iframe width="350" height="315" src="https://www.youtube.com/embed/Zw6UpeFCeN0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
             </div>
-        </section>
+        </section>-->
+        
+        
         <section class="sports">
             <div class="about-row">
                 <div class="col span-1-of-2 photo">
