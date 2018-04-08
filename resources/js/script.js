@@ -1,6 +1,6 @@
 //$('body').css('display','none');
 $(document).ready(function() {
-    
+    $('html').fadeIn(3000);
 // Navigation scroll 
     $(function() {
      var offset = -50;    
@@ -17,23 +17,10 @@ $(document).ready(function() {
         }
       });
     });
-    
-//   $('body').fadeIn();
 
-/*var lastScrollTop = 0;
-$(window).scroll(function(event){
-   var st = $(this).scrollTop();
-   if (st > lastScrollTop){
-       $('.sticky').slideUp(200);
-   } else {
-      $('.sticky').slideDown(200);
-   }
-   lastScrollTop = st;
-});*/
-    
 //animations
     $('.js--button').waypoint(function(direction){
-        $('.js--button').addClass('animated ');
+        $('.js--button').addClass('animated');
     }, {
         offset: '50%'
 });
@@ -41,6 +28,7 @@ $(window).scroll(function(event){
         $('.js--arrow').addClass('animated bounceInUp');
     }, {
         offset: '100%'
+        
 });
     $('.js--social').waypoint(function(direction){
         $('.js--social').addClass('animated jackInTheBox');
@@ -58,12 +46,32 @@ $(window).scroll(function(event){
         offset: '80%'
 });
 
-/*    
-    setTimeout(function(){
-		$('body').fadeIn();
-	},1000)*/
+//fadein/fadeout    
+$('body').css('display','none');
+$(document).ready(function() {
+$('body').fadeIn();
+$('js--fade').on('click',function(event){
+var thetarget = this.getAttribute('target')
+if (thetarget != "_blank"){			
+var thehref = this.getAttribute('href')
+event.preventDefault();
+$('body').fadeOut(function(){
+    //alert(thehref)
+    window.location = thehref					
+});
+}
+});
+});
+setTimeout(function(){
+$('body').fadeIn();
+},1000)
+    
+    
+//nav bar
+
 
 });
+
 
 
 
