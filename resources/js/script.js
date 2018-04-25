@@ -1,6 +1,7 @@
 //$('body').css('display','none');
 $(document).ready(function() {
     $('html').fadeIn(3000);
+
 // Navigation scroll 
     $(function() {
      var offset = -50;    
@@ -45,6 +46,11 @@ $(document).ready(function() {
     }, {
         offset: '80%'
 });
+    $('.js--intro').waypoint(function(direction){
+    $('.js--intro').addClass('animated slideInUp');
+    }, {
+        offset: '80%'
+});
 
 //fadein/fadeout    
 $('body').css('display','none');
@@ -67,7 +73,6 @@ $('body').fadeIn();
 },1000)
     
     
-//nav bar
 
 
 });

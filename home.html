@@ -9,13 +9,15 @@
         <link rel="stylesheet" type="text/css" href="vendors/fonts/ionicons.min.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
         <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+        <title>Bill Sheng</title>
         <style>
+        
         * {
     margin:0;
     padding:0;
     box-sizing: border-box;
     text-rendering: optimizeLegibility;
-            
+     
 
             
 }
@@ -173,13 +175,18 @@ header h1 span {
     color: #bbdefb;
 }
 
-.sticky {
-    position: fixed;
+nav {
     width: 100%;
     z-index: 9999;
     background-color: rgb(0, 0, 0); 
     border-bottom: 4px solid #bbdefb;
+    display: block;
+    position: fixed;
 }
+            
+            
+            
+
 
 /*ABOUT*/
 }
@@ -348,7 +355,6 @@ h5 {
 .gallery img:hover {
     opacity: 1;
     transform: scale(1.05);
-    
 }
 /*BACKGROUND4*/
    .background4 {
@@ -488,6 +494,7 @@ h5 {
 .js--aboutright.animated {
     opacity: 1;
 }
+
             
             /* Small tablets to big tablets from 1023 to 1200 px*/
 @media only screen and (max-width: 1200px) {
@@ -646,7 +653,7 @@ h5 {
     <meta name="msapplication-config" content="/resources/favicon_package_v0.16/browserconfig.xml">
     <meta name="theme-color" content="#000000">
     
-    <body class="hidden">
+    <body>
         <header>
             <nav class= "sticky">
                 <div class="nav-background">
@@ -670,7 +677,7 @@ h5 {
                 </div>
             </nav>
                 
-            <div class="row" id="home">
+            <div class="row js--intro" id="home">
                 <h1>Hey, I'm<span> Bill</span>!</h1>
             </div>
             <div class="social-row">
@@ -701,7 +708,7 @@ h5 {
 <!--            <img src="resources/images/bitmoji1.png">-->
              <div class="row">
                 <p>
-                Welcome to my website! I'm Bill, a Management Engineering student at the University of Waterloo. My goal is to improve society using the endless capabilities of innovation and technology.<br><br> I believe in a well-rounded lifestyle. When I'm not working on my next big idea, I am usually playing sports, making music, or relaxing with friends and family.
+                Welcome to my website! I'm Bill, a Management Engineering student at the University of Waterloo. My goal is to improve society using the endless capabilities of innovation and technology.<br><br> I believe in a well-rounded lifestyle. When I'm not working on my next big idea, I am usually playing sports, making music, or cooling with friends and family.
                 </p>
             </div>
             <div class="row">
@@ -814,7 +821,7 @@ h5 {
                 <div class="span 1-of-3 contact-container">
                     <i class="ion-wand icon-contact-big"></i>
                     <h6>Follow</h6>
-                    <h7>What's a student without social media? Follow for a unique view of my everyday life :) </h7>
+                    <h7>Follow for a unique view of my everyday life :) </h7>
                 </div>
                 <div class="span 1-of-3 contact-container">
                     <i class="ion-map icon-contact-big"></i>
