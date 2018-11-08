@@ -1,2 +1,9 @@
 # PersonalWebsite-V1
-Personal website created using HTML, CSS, and JavaScript (Version 1).
+<b>Technologies used:</b>
+<br>
+HTML/CSS
+<br>
+Bootstrap
+<br>
+
+
